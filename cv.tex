@@ -3,8 +3,8 @@
 % Based on resume tex file by Kamil Wojcicki
 % URL: http://linux.dsplabs.com.au/resume-writing-example-latex-template-linux-curriculum-vitae-professional-cv-layout-format-text-p54/
 \documentclass[margin,line]{resume}
-
-\usepackage{graphicx}
+\usepackage{hyperref}
+%\usepackage{graphicx}
 
 \begin{document}
 
@@ -47,35 +47,35 @@
     \section{\mysidestyle \textbf{\large{P}\small{ROJECTS}}}
 
     % SDN.
-    \textbf{\listing Software-defined networking} \hfill \textbf{April 2015}\vspace{2mm}\\
+    \textbf{\listing \href{https://github.com/bmyfish/OpenFlow_L3_Learning_Switch}{Software-defined Network}} \hfill \textbf{April 2015}\vspace{2mm}\\
     Implemented a layer-3 networl switch controller on OpenFlow.\\
     Python programming, built on top of POX, emulated on Mininet.     
 
     % LOADng.
-    \textbf{\listing LOADng implememtation on Contiki} \hfill \textbf{October 2014 - December 2014}\vspace{1mm}\\
+    \textbf{\listing \href{https://github.com/bmyfish/LOADng-In-Contiki}{LOADng Implememtation On Contiki}} \hfill \textbf{October 2014 - December 2014}\vspace{1mm}\\
     Implemented LOADng and LOADng-CT protocol on Contiki.\\
     C programming, developed and debugged on Linux.  
 
     % Kernel Project.
-    \textbf{\listing Kernel Project} \hfill \textbf{September 2014 - December 2014}\vspace{2mm}\\
+    \textbf{\listing \href{https://github.com/bmyfish/Weenix}{Kernel Project}} \hfill \textbf{September 2014 - December 2014}\vspace{2mm}\\
     Implemented an Linux similar operating system called Weenix with C language.\\
 	Implemented threads, processes, scheduling, and synchronization primitives.\\
 	Implemented functions for pathname to vnode conversion, VFS system-calls, VM Management.\\
 	C programming, developed on Linux. 
 
     % Network Simulator.
-    \textbf{\listing Token Bucket Emulation} \hfill \textbf{September 2014}\vspace{2mm}\\
+    \textbf{\listing \href{https://github.com/bmyfish/Token_Bucket_Emulation}{Token Bucket Emulation}} \hfill \textbf{September 2014}\vspace{2mm}\\
     Simulated a traffic shaper who transmits packets controlled by a token bucket filter using multi-threading within a single process.\\
     C programming, developed on Linux.    
 
     % Double Linked Circular List.
-    \textbf{\listing Double Linked Circular List} \hfill \textbf{August 2014}\vspace{2mm}\\
+    \textbf{\listing \href{https://github.com/bmyfish/Double_Linked_Circular_List}{Double Linked Circular List}} \hfill \textbf{August 2014}\vspace{2mm}\\
     Developed an efficient double-linked circular list in C.\\
     Process bank transaction data, sorted them with circular list and displayed to terminal.\\
     C programming, developed on Linux.
 
     % Socket Programming.
-    \textbf{\listing Online Auction System} \hfill \textbf{April 2014}\vspace{2mm}\\
+    \textbf{\listing \href{https://github.com/bmyfish/Online-Auction-System}{Online Auction System}} \hfill \textbf{April 2014}\vspace{2mm}\\
     Developed and simulated an online auction system.\\
     All communications takes place over TCP and UDP sockets in a client-server arcitecture.\\
     C Programming, UNIX Socket Programming
@@ -94,8 +94,8 @@
 	\vspace{1mm} % Used to offset a strange alignment error between title and contents
 	\begin{tabular}{@{}p{4cm}p{5.5cm}p{5.5cm}}
 	Operating System     &  Computer Systems Organization        &  Computer Systems Architectures\\
-	Computer Networks    &  Broadband Network Architectures      &  Low-Power Wireless Networks
-	%\\Analysis of Algorithms & Probability for Electrical \& Computer Engineering
+	Computer Networks    &  Broadband Network Architectures      &  Low-Power Wireless Networks\\
+	Analysis of Algorithms %& Probability for Electrical \& Computer Engineering
 	\end{tabular}
 	%\vspace{2mm} \\
 	
